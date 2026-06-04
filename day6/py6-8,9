@@ -1,0 +1,25 @@
+1. 金額と割引率を入力すると、割引後の金額（整数値）を出力してくれるプログラム
+2. 入力を促す文章を表示してください。
+3. 変数名は「a」や「b」ではなく、わかりやすいものとしてください。
+```
+amount = int(input("Please enter the amount:"))
+discount = int(input("Please enter the discount rate(%):"))*0.01
+discounted = int(amount * (1 - discount))
+
+print("Discounted amount is",discounted,"\.")
+
+````
+
+1. 上底と下底と高さを入力すると、台形の面積（整数値）を出力してくれるプログラム
+2. 入力を促す文章を表示してください。
+3. 変数名は「a」や「b」ではなく、わかりやすいものとしてください。
+```
+top_base = int(input("Enter the top base of the trapezoid: "))
+bottom_base = int(input("Enter the bottom base of the trapezoid: "))
+height = int(input("Enter the height of the trapezoid: "))
+
+area = int((top_base + bottom_base) * height / 2)
+
+print("The area is",area)
+
+```
